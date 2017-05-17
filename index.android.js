@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {AppRegistry} from 'react-native';
 import Provider from "react-redux/src/components/Provider";
-import ContainerApp from './src/Components/ContainerApp';
+import ContainerApp from './src/Containers/ContainerApp';
 import store from './src/Components/store';
 
 

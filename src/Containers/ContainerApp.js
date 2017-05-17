@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
-import {App} from './App';
-import click from './actions'
+import {App} from '../Components/App';
+import click from '../actions/actions'
 
 
 const mapStateToProp = (state) => {

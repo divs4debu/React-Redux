@@ -1,5 +1,5 @@
 import {createStore} from 'redux';
-import AppReducer from './appReducer';
+import AppReducer from '../Reducers/appReducer';
 
 store = createStore(AppReducer);
 
