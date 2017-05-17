@@ -1,19 +1,19 @@
-
 import React, {Component} from 'react';
-import {
-    AppRegistry,
-    Text,
-    View
-} from 'react-native';
+import {AppRegistry} from 'react-native';
+import Provider from "react-redux/src/components/Provider";
+import ContainerApp from './src/Components/ContainerApp';
+import store from './src/Components/store';
+
 
 export default class TODO extends Component {
     render() {
         return (
-            <View >
-                <Text> This is the sample TODO application </Text>
-            </View>
+            <Provider store={store}>
+                <ContainerApp />
+            </Provider>
         );
     }
+
 }
 
 
